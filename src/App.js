@@ -13,7 +13,8 @@ import React, { Component } from 'react'
 // import ConditionalRendering from './components/ConditionalRendering'
 // import ListRendering from './components/ListRendering'
 // import ListRenderingWithIndex from './components/ListRenderingWithIndex'
-import StyleSheet from './components/StyleSheet'
+// import StyleSheet from './components/StyleSheet'
+import FormHandling from './components/FormHandling'
 export default class App extends Component {
   render() {
     return (
@@ -38,7 +39,8 @@ export default class App extends Component {
         {/* <ConditionalRendering /> */}
         {/* <ListRendering /> */}
         {/* <ListRenderingWithIndex /> */}
-        <StyleSheet primary={true} />
+        {/* <StyleSheet primary={true} /> */}
+        <FormHandling />
 
       </div>
     )
