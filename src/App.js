@@ -11,7 +11,9 @@ import React, { Component } from 'react'
 // import EventBind from './components/EventBind'
 // import MethodAsPropsParent from './components/MethodAsPropsParent'
 // import ConditionalRendering from './components/ConditionalRendering'
-import ListRendering from './components/ListRendering'
+// import ListRendering from './components/ListRendering'
+// import ListRenderingWithIndex from './components/ListRenderingWithIndex'
+import StyleSheet from './components/StyleSheet'
 export default class App extends Component {
   render() {
     return (
@@ -34,7 +36,9 @@ export default class App extends Component {
         {/* <EventBind /> */}
         {/* <MethodAsPropsParent /> */}
         {/* <ConditionalRendering /> */}
-        <ListRendering />
+        {/* <ListRendering /> */}
+        {/* <ListRenderingWithIndex /> */}
+        <StyleSheet primary={true} />
 
       </div>
     )
