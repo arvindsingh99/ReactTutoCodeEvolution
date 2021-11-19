@@ -14,11 +14,14 @@ import React, { Component } from 'react'
 // import ListRendering from './components/ListRendering'
 // import ListRenderingWithIndex from './components/ListRenderingWithIndex'
 // import StyleSheet from './components/StyleSheet'
-import FormHandling from './components/FormHandling'
+// import FormHandling from './components/FormHandling'
+// import LifecycleA from './components/LifecycleA'
+// import LifecycleC from './components/LifecycleC'
+import FragmentDemo from './components/FragmentDemo'
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         {/* <FunctionalComponent />
       <ClassComponent /> */}
 
@@ -40,7 +43,10 @@ export default class App extends Component {
         {/* <ListRendering /> */}
         {/* <ListRenderingWithIndex /> */}
         {/* <StyleSheet primary={true} /> */}
-        <FormHandling />
+        {/* <FormHandling /> */}
+        {/* <LifecycleA /> */}
+        {/* <LifecycleC /> */}
+        <FragmentDemo />
 
       </div>
     )
