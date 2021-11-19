@@ -17,7 +17,8 @@ import React, { Component } from 'react'
 // import FormHandling from './components/FormHandling'
 // import LifecycleA from './components/LifecycleA'
 // import LifecycleC from './components/LifecycleC'
-import FragmentDemo from './components/FragmentDemo'
+// import FragmentDemo from './components/FragmentDemo'
+import FragmentTable from './components/FragmentTable'
 export default class App extends Component {
   render() {
     return (
@@ -46,7 +47,8 @@ export default class App extends Component {
         {/* <FormHandling /> */}
         {/* <LifecycleA /> */}
         {/* <LifecycleC /> */}
-        <FragmentDemo />
+        {/* <FragmentDemo /> */}
+        <FragmentTable />
 
       </div>
     )
